@@ -22,6 +22,10 @@ sql.execute("""CREATE TABLE IF NOT EXISTS nombers_kard(
 )""")
 database.commit()
 
+
+# Проверка баланса счета по всей идеи должно отправлять SMS, поэтому чтобы проверить баланас
+# достаточно вставить str(self.balanse - int(self.input_snyat_summ)) в какой-то label в классе PageThreeProj
+
 # для создания счёта, возможно когда будет другой пк то этого счёта может не быть и следует открыть эту команду
 # sql.execute("INSERT INTO nombers_kard VALUES (?, ?)", ('1234567891234567', 0))
 # database.commit()
