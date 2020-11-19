@@ -177,18 +177,7 @@ class Ui_Razmen(object):
 "    background-color: #fa4244\n"
 "}")
         self.pageThree.setObjectName("pageThree")
-        self.schet = QtWidgets.QLineEdit(self.centralwidget)
-        self.schet.setGeometry(QtCore.QRect(150, 170, 491, 41))
-        font = QtGui.QFont()
-        font.setPointSize(12)
-        font.setBold(True)
-        font.setWeight(75)
-        self.schet.setFont(font)
-        self.schet.setStyleSheet("background-color: #22222e;\n"
-"border: 2px solid #f66867;\n"
-"border-radius: 30;\n"
-"color: white")
-        self.schet.setText("")
+
         self.pageFour = QtWidgets.QPushButton(self.centralwidget)
         self.pageFour.setGeometry(QtCore.QRect(580, 10, 161, 31))
         font = QtGui.QFont()
@@ -206,8 +195,7 @@ class Ui_Razmen(object):
 "    background-color: #fa4244\n"
 "}")
         self.pageFour.setObjectName("pageFour")
-        self.schet.setAlignment(QtCore.Qt.AlignCenter)
-        self.schet.setObjectName("schet")
+
         Razmen.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(Razmen)
